@@ -6,4 +6,11 @@ The notebooks and data in this repo will allow you to explore the capabilities o
   
 Finally, you can use the [credit feed notebook](https://raw.githubusercontent.com/emartensibm/german-credit/master/german_credit_scoring_feed.ipynb) to regularly send data to your models, allowing for a continuous feed of predictions for OpenScale to monitor.
   
-Right-click on a notebook like and select **Save As..** to download the file. All notebooks should be run in a [Watson Studio](https://dataplatform.ibm.com) project, using the **Python 3.5 with Spark** runtime environment.
+Right-click on the notebook you wish to run and select **Save As...** to download the file. To import the notebook into Watson Studio:
+  * Open [Watson Studio](https://dataplatform.ibm.com)
+  * Click **Create a project** and select a **Standard** project
+  * Give your project a name, select an existing object storage instance or create a new one, and click **Create**
+  * Once your project has been created, click on the **Assets** tab, click on **Add to project** at the top of the screen, and select **NOTEBOOK**
+  * On the **New Notebook** screen, select **From file**, choose the notebook file you downloaded, select the **Default Spark Python...** option, and click **Create notebook**
+
+You may now continue following the instructions contained in the notebook.
